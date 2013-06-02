@@ -77,7 +77,7 @@
 			this.hexTextBox.Location = new System.Drawing.Point(0, 0);
 			this.hexTextBox.Name = "hexTextBox";
 			this.hexTextBox.ReadOnly = true;
-			this.hexTextBox.Size = new System.Drawing.Size(292, 269);
+			this.hexTextBox.Size = new System.Drawing.Size(305, 269);
 			this.hexTextBox.TabIndex = 0;
 			this.hexTextBox.Text = "0A 0B 1C FF 65 32 99 10 30 31 31 31 32 33 34 46 11";
 			this.hexTextBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hexTextBox_MouseDown);
@@ -90,7 +90,7 @@
 			this.searchTypeComboBox.FormattingEnabled = true;
 			this.searchTypeComboBox.Location = new System.Drawing.Point(342, 35);
 			this.searchTypeComboBox.Name = "searchTypeComboBox";
-			this.searchTypeComboBox.Size = new System.Drawing.Size(95, 20);
+			this.searchTypeComboBox.Size = new System.Drawing.Size(116, 20);
 			this.searchTypeComboBox.TabIndex = 1;
 			this.searchTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.searchTypeComboBox_SelectedIndexChanged);
 			// 
@@ -164,8 +164,8 @@
 			// hexSplitContainer.Panel2
 			// 
 			this.hexSplitContainer.Panel2.Controls.Add(this.stringTextBox);
-			this.hexSplitContainer.Size = new System.Drawing.Size(440, 269);
-			this.hexSplitContainer.SplitterDistance = 292;
+			this.hexSplitContainer.Size = new System.Drawing.Size(461, 269);
+			this.hexSplitContainer.SplitterDistance = 305;
 			this.hexSplitContainer.TabIndex = 9;
 			// 
 			// stringTextBox
@@ -177,7 +177,7 @@
 			this.stringTextBox.Location = new System.Drawing.Point(0, 0);
 			this.stringTextBox.Name = "stringTextBox";
 			this.stringTextBox.ReadOnly = true;
-			this.stringTextBox.Size = new System.Drawing.Size(144, 269);
+			this.stringTextBox.Size = new System.Drawing.Size(152, 269);
 			this.stringTextBox.TabIndex = 1;
 			this.stringTextBox.Text = "俺はキルミーを名作だと思ってるけど ";
 			// 
@@ -337,7 +337,7 @@
 			this.Controls.Add(this.searchContentComboBox);
 			this.Controls.Add(this.searchTypeComboBox);
 			this.Name = "HexViewControl";
-			this.Size = new System.Drawing.Size(440, 359);
+			this.Size = new System.Drawing.Size(461, 359);
 			this.Load += new System.EventHandler(this.HexViewControl_Load);
 			this.Leave += new System.EventHandler(this.HexViewControl_Leave);
 			this.hexSplitContainer.Panel1.ResumeLayout(false);
