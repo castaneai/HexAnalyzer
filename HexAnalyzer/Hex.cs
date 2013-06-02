@@ -24,6 +24,19 @@ namespace HexAnalyzer
 		public int Length { get; private set; }
 
 		/// <summary>
+		/// インデクサー
+		/// </summary>
+		/// <param name="i"></param>
+		/// <returns></returns>
+		public byte this[int i]
+		{
+			get
+			{
+				return data[i];
+			}
+		}
+
+		/// <summary>
 		/// マークした部分Hexのリスト
 		/// </summary>
 		public IEnumerable<Hex> Marks { get { return marks; } }
