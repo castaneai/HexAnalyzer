@@ -13,7 +13,7 @@ HexAnalyzer
 - 検索
 指定バイト列を16進数表記や基本データ型値で検索
 
-![Search]((https://raw.github.com/castaneai/HexAnalyzer/master/README/search.jpg)
+![Search](https://raw.github.com/castaneai/HexAnalyzer/master/README/search.jpg)
 
 プロジェクトにHexAnalyzerを追加する方法(Visual Studio)
 ---------------------------------------------------------
