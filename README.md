@@ -1,19 +1,31 @@
 HexAnalyzer
 =============
 
-ƒoƒCƒiƒŠƒf[ƒ^‚Ì\‘¢‚ğ‰ğÍ‚·‚é‚Ì‚É•Ö—˜‚È‹@”\‚ğ”õ‚¦‚½Windows Foms—pGUIƒRƒ“ƒ|[ƒlƒ“ƒg
+ãƒã‚¤ãƒŠãƒªãƒ‡ãƒ¼ã‚¿ã®æ§‹é€ ã‚’è§£æã™ã‚‹ã®ã«ä¾¿åˆ©ãªæ©Ÿèƒ½ã‚’å‚™ãˆãŸWindows Fomsç”¨GUIã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆ
 
-ƒvƒƒWƒFƒNƒg‚ÉHexAnalyzer‚ğ’Ç‰Á‚·‚é•û–@(Visual Studio)
+ä¸»ãªæ©Ÿèƒ½
+-----------
+- QuickView
+æŒ‡å®šã—ãŸä¸€éƒ¨åˆ†ã®ãƒã‚¤ãƒˆåˆ—ã‚’åŸºæœ¬ãƒ‡ãƒ¼ã‚¿å‹ã«å¤‰æ›ã—ãŸå€¤ã‚’ãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—ã§è¡¨ç¤º
+
+![QuickView](https://raw.github.com/castaneai/HexAnalyzer/master/README/quickview.jpg)
+
+- æ¤œç´¢
+æŒ‡å®šãƒã‚¤ãƒˆåˆ—ã‚’16é€²æ•°è¡¨è¨˜ã‚„åŸºæœ¬ãƒ‡ãƒ¼ã‚¿å‹å€¤ã§æ¤œç´¢
+
+![Search]((https://raw.github.com/castaneai/HexAnalyzer/master/README/search.jpg)
+
+ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã«HexAnalyzerã‚’è¿½åŠ ã™ã‚‹æ–¹æ³•(Visual Studio)
 ---------------------------------------------------------
 
-- ƒ{ƒ^ƒ“‚âƒeƒLƒXƒgƒ{ƒbƒNƒX‚ª•À‚ñ‚Å‚¢‚éƒc[ƒ‹ƒ{ƒbƒNƒX‚ğŠJ‚¢‚Ä‰EƒNƒŠƒbƒNƒƒjƒ…[‚©‚çuƒAƒCƒeƒ€‚Ì‘I‘ğv‚ğ‘I‚Ô
+- ãƒœã‚¿ãƒ³ã‚„ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹ãŒä¸¦ã‚“ã§ã„ã‚‹ãƒ„ãƒ¼ãƒ«ãƒœãƒƒã‚¯ã‚¹ã‚’é–‹ã„ã¦å³ã‚¯ãƒªãƒƒã‚¯ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰ã€Œã‚¢ã‚¤ãƒ†ãƒ ã®é¸æŠã€ã‚’é¸ã¶
 
-![ƒAƒCƒeƒ€‚Ì‘I‘ğ](https://raw.github.com/castaneai/HexAnalyzer/master/README/01.jpg)
+![ã‚¢ã‚¤ãƒ†ãƒ ã®é¸æŠ](https://raw.github.com/castaneai/HexAnalyzer/master/README/01.jpg)
 
-- uQÆv‚ÅHexAnalyzer.dll‚ğ‘I‘ğ
+- ã€Œå‚ç…§ã€ã§HexAnalyzer.dllã‚’é¸æŠ
 
-![QÆ](https://raw.github.com/castaneai/HexAnalyzer/master/README/02.jpg)
+![å‚ç…§](https://raw.github.com/castaneai/HexAnalyzer/master/README/02.jpg)
 
-- ƒc[ƒ‹ƒ{ƒbƒNƒX‚ÉHexViewControl‚ª’Ç‰Á‚³‚ê‚é
+- ãƒ„ãƒ¼ãƒ«ãƒœãƒƒã‚¯ã‚¹ã«HexViewControlãŒè¿½åŠ ã•ã‚Œã‚‹
 
-![ƒc[ƒ‹ƒ{ƒbƒNƒX](https://raw.github.com/castaneai/HexAnalyzer/master/README/03.jpg)
+![ãƒ„ãƒ¼ãƒ«ãƒœãƒƒã‚¯ã‚¹](https://raw.github.com/castaneai/HexAnalyzer/master/README/03.jpg)
