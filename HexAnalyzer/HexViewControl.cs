@@ -55,6 +55,7 @@ namespace HexAnalyzer
 
 			set
 			{
+                bytes = value;
                 updateHexTextBox();
                 updateStringTextBox();
 			}
