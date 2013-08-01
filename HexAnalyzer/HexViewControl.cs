@@ -14,25 +14,49 @@ namespace HexAnalyzer
 	public partial class HexViewControl : UserControl
 	{
 		/// <summary>
-		/// 文字列として解釈する際に使う文字エンコーディング
+        /// バイトデータを文字列表示する場合に使用する文字エンコーディング
 		/// </summary>
-		public Encoding TextEncoding = Encoding.GetEncoding(932);
+        private Encoding textEncoding = Encoding.GetEncoding(932);
 
-		/// <summary>
-		/// 現在ヘキサビューに表示されているバイトデータ
-		/// これに新しい値を代入すると自動的にヘキサビューと文字列ビューの表示が更新される
-		/// </summary>
+        /// <summary>
+        /// バイトデータを文字列表示する場合に使用する文字エンコーディング
+        /// デフォルトはSjis-win (cp932)
+        /// これを変更すると自動的に文字列表示ボックスも更新される
+        /// </summary>
+        public Encoding TextEncoding
+        {
+            get
+            {
+                return textEncoding;
+            }
+
+            set
+            {
+                textEncoding = value;
+                updateStringTextBox();
+            }
+        }
+
+        /// <summary>
+        /// 現在表示しているバイトデータ
+        /// </summary>
+        private byte[] bytes;
+
+        /// <summary>
+        /// 現在表示しているバイトデータ
+        /// これを変更すると自動的にテキストボックスも更新される
+        /// </summary>
 		public byte[] Bytes
 		{
 			get
 			{
-				return HexConverter.ToBytes(hexTextBox.Text);
+                return bytes;
 			}
 
 			set
 			{
-				hexTextBox.Text = HexConverter.ToHex(value);
-				stringTextBox.Text = TextHelper.GetPrintableText(value, TextEncoding);
+                updateHexTextBox();
+                updateStringTextBox();
 			}
 		}
 
@@ -43,6 +67,22 @@ namespace HexAnalyzer
 		{
 			InitializeComponent();
 		}
+
+        /// <summary>
+        /// 16進数バイト表示ボックスの内容を更新する
+        /// </summary>
+        private void updateHexTextBox()
+        {
+            hexTextBox.Text = HexConverter.ToHex(this.Bytes);
+        }
+
+        /// <summary>
+        /// 文字列表示ボックスの内容を更新する
+        /// </summary>
+        private void updateStringTextBox()
+        {
+            stringTextBox.Text = TextHelper.GetPrintableText(this.Bytes, this.TextEncoding);
+        }
 
 		/// <summary>
 		/// 指定位置に一番近いHexバイトの先頭の文字位置を取得する
